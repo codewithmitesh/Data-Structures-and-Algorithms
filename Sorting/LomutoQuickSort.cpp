@@ -39,16 +39,36 @@ int LomutoPartition(int arr[], int low, int high)
     return i + 1;
 }
 
+void LomutoQuickSort(int arr[], int low, int high)
+{
+
+    if (high > low)
+    {
+
+        int ind = LomutoPartition(arr, low, high);
+        LomutoQuickSort(arr, low, ind - 1);
+        LomutoQuickSort(arr, ind + 1, high);
+    }
+}
+
 int main()
 {
 
-    int arr[] = {5, 13, 6, 8, 12, 11, 9};
+    // int arr[] = {5, 13, 6, 8, 12, 11, 9};
+    int n;
+    cin >> n;
 
-    int n = sizeof(arr) / sizeof(arr[0]);
+    int arr[n];
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
+    }
 
-    int res = LomutoPartition(arr, 0, n - 1);
-    cout << res << "\n";
+    // int n = sizeof(arr) / sizeof(arr[0]);
+
+    LomutoQuickSort(arr, 0, n - 1);
 
     for (int x : arr)
         cout << x << " ";
 }
+   
