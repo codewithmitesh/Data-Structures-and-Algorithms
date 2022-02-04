@@ -74,6 +74,7 @@
     "files.exclude": {
         "**/*.exe": true,
     },
+    "editor.smoothScrolling": true,
     // "code-runner.executorMap": {
     //     "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
     // },
