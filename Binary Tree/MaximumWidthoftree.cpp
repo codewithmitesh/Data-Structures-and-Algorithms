@@ -22,7 +22,7 @@ int getMaxWidth(Node *root)
     {
         int cnt = q.size();
         maxSize = max(maxSize, cnt);
-        for (int i = 0; i < cnt; i++)
+        for (int i = 0; i < cnt; i++)   
         {
             curr = q.front();
             q.pop();

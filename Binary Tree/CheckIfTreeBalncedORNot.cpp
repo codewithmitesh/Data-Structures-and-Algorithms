@@ -53,7 +53,6 @@ int checkForBalanced(Node *root)
     else
         return max(lh, rh) + 1;
 }
-
 // Function to check whether a binary tree is balanced or not.
 bool isBalanced(Node *root)
 {
