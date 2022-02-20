@@ -18,7 +18,7 @@ vector<int> preOrder(Node *root)
     if (root == NULL)
         return ans;
     stack<Node *> st;
-    Node *curr = root;    
+    Node *curr = root;
     while (curr != NULL || st.empty() == false)
     {
         while (curr != NULL)
@@ -38,6 +38,3 @@ vector<int> preOrder(Node *root)
     }
 }
 */
-
-
-
