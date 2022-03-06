@@ -214,3 +214,55 @@ while (dq.empty() == false)
 }
 return ans;
 */
+
+/**
+ * @brief
+ * !  Another Approach using a single Queue
+ *
+vector<int> findSpiral(Node *root)
+{
+    if (!root)
+    {
+        return {};
+    }
+    queue<Node *> q;
+    vector<int> ans;
+    q.push(root);
+    int lvl = 0;
+    while (!q.empty())
+    {
+        int len = q.size();
+        vector<int> level;
+        for (int i = 0; i < len; i++)
+        {
+            auto temp = q.front();
+            q.pop();
+            level.push_back(temp->data);
+            if (temp->left)
+            {
+                q.push(temp->left);
+            }
+            if (temp->right)
+            {
+                q.push(temp->right);
+            }
+        }
+        if (ans.size() == 0 or lvl % 2 == 1)
+        {
+            for (auto i : level)
+            {
+                ans.push_back(i);
+            }
+        }
+        else
+        {
+            for (int i = level.size() - 1; i >= 0; i--)
+            {
+                ans.push_back(level[i]);
+            }
+        }
+        lvl++;
+    }
+    return ans;
+}
+*/
