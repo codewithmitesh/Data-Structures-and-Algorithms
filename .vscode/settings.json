@@ -75,6 +75,9 @@
         "**/*.exe": true,
     },
     "editor.smoothScrolling": true,
+    "cSpell.words": [
+        "indegrees"
+    ],
     // "code-runner.executorMap": {
     //     "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
     // },
