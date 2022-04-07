@@ -1,15 +1,15 @@
 /**
  * @file CountTripletwithsumSmallerthanX.cpp
  * @author codewithmitesh (codewithmitesh@gmail.com)
- * @brief 
+ * @brief
  * @version 0.1
  * @date 2021-11-26
- * 
+ *
  * @copyright Copyright (c) 2021
- * 
+ *
  * Problem Link :-  https://www.geeksforgeeks.org/count-triplets-with-sum-smaller-that-a-given-value/
- 
- Solution :- 
+
+ Solution :-
 
 long long countTriplets(long long arr[], int n, long long sum)
 {
