@@ -11,19 +11,16 @@
 /**
 Node *Insert(Node *root, int x)
 {
-
     if (root == NULL)
     {
         return new Node(x);
     }
     else if (root->data < x)
     {
-
         root->right = Insert(root->right, x);
     }
     else if (root->data > x)
     {
-
         root->left = Insert(root->left, x);
     }
     else

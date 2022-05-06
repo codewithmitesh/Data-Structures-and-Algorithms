@@ -37,7 +37,6 @@ Node *deleteNode(Node *root, int X)
     }
     else
     {
-
         if (root->left == NULL)
         {
             Node *temp = root->right;
@@ -52,7 +51,6 @@ Node *deleteNode(Node *root, int X)
         }
         else
         {
-
             Node *temp = inorderSucessor(root->right);
             root->data = temp->data;
             root->right = deleteNode(root->right, temp->data);

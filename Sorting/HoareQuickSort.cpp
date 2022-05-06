@@ -43,7 +43,6 @@ void QuickSort(int arr[], int low, int high)
 
     if (high > low)
     {
-
         int ind = HoarePartition(arr, low, high);
         QuickSort(arr, low, ind);
         QuickSort(arr, ind + 1, high);
