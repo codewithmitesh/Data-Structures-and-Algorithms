@@ -49,7 +49,7 @@ void Graph::bridgeUtil(int u, bool visited[], int disc[],
     // Initialize discovery time and low value
     disc[u] = low[u] = ++time;
 
-    // Go through all vertices aadjacent to this
+    // Go through all vertices adjacent to this
     list<int>::iterator i;
     for (i = adj[u].begin(); i != adj[u].end(); ++i)
     {

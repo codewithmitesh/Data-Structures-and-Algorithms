@@ -1,15 +1,15 @@
 /**
  * @file LongestSubarrayWithGivenSum.cpp
  * @author codewithmitesh (codewithmitesh@gmail.com)
- * @brief 
+ * @brief
  * @version 0.1
  * @date 2021-11-21
- * 
+ *
  * @copyright Copyright (c) 2021
  * Problem Link :-  https://www.geeksforgeeks.org/longest-sub-array-sum-k/
- * 
- *  Solution :-  
- * 
+ *
+ *  Solution :-
+ *
 int lenOfLongSubarr(int A[], int N, int K)
 {
 
