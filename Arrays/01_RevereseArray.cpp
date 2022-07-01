@@ -1,6 +1,6 @@
 // *C++ program to reverse an array time complexity: O(n)
 #include <iostream>
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 void reverseArray(int arr[], int start, int end)
 {
@@ -13,7 +13,7 @@ void reverseArray(int arr[], int start, int end)
         end--;
     }
 }
-//function to print an array
+// function to print an array
 void printArray(int arr[], int size)
 {
     for (int i = 0; i < size; i++)
@@ -22,17 +22,17 @@ void printArray(int arr[], int size)
         cout << endl;
     }
 }
-//driver function
+// driver function
 int main()
 {
     int arr[] = {1, 2, 3, 4, 5, 6};
     int n = sizeof(arr) / sizeof(arr[0]);
-    //print original array
+    // print original array
     printArray(arr, n);
-    //function calling
+    // function calling
     reverseArray(arr, 0, n - 1);
     cout << "Reversed array is" << endl;
-    //print the reversed array
+    // print the reversed array
     printArray(arr, n);
     return 0;
 }
