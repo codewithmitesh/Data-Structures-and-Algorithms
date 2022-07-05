@@ -71,6 +71,32 @@ public:
         }
         return ans;
     }
+
+    vector<int> ans;
+
+    void find(int level, Node *cur)
+    {
+
+        if (level > ans.size())
+        {
+            ans.push_back(cur->val);
+        }
+
+        if (cur->right)
+            find(level + 1, cur->right);
+
+        if (cur->left)
+            find(level + 1, cur->left);
+    }
+
+public:
+    vector<int> rightSideView(Node *root)
+    {
+
+        if (root)
+            find(1, root);
+        return ans;
+    }
 };
 
 // { Driver Code Starts.

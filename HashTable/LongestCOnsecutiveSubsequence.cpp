@@ -1,15 +1,15 @@
 /**
  * @file LongestCOnsecutiveSubsequence.cpp
  * @author codewithmitesh (codewithmitesh@gmail.com)
- * @brief 
+ * @brief
  * @version 0.1
  * @date 2021-11-21
- * 
+ *
  * @copyright Copyright (c) 2021
- * 
+ *
  * Problem Link :- https://www.geeksforgeeks.org/longest-consecutive-subsequence/
- * 
- * Solution :- 
+ *
+ * Solution :-
 int findLongestConseqSubseq(int arr[], int N)
 {
 
@@ -34,9 +34,8 @@ int findLongestConseqSubseq(int arr[], int N)
     }
     return res;
 }
- * 
- * 
+ *
+ *
  */
 /* Code By Mitesh Tank (codewithmitesh) :- www.linkedin.com/in/mitesh-tank , https://github.com/codewithmitesh ,
    https://www.codechef.com/users/codewithmitesh ,https://leetcode.com/codewithmitesh/, https://auth.geeksforgeeks.org/user/codewithmitesh/practice/ ,https://codeforces.com/profile/codewithmitesh   */
-
