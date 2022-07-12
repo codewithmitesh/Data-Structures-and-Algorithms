@@ -30,3 +30,33 @@ Node *lca(Node *root, int n1, int n2)
     return root;
 }
 */
+/**
+TreeNode *lowestCommonAncestor(TreeNode *root, TreeNode *p, TreeNode *q)
+{
+    // basecase 1
+    if (root == NULL)
+        return NULL;
+    // basecase 2
+    if (root == p || root == q)
+    {
+        return root;
+    }
+    // find left right
+    TreeNode *l = lowestCommonAncestor(root->left, p, q);
+    TreeNode *r = lowestCommonAncestor(root->right, p, q);
+    // now treat root
+    if (l == NULL)
+    {
+
+        return r;
+    }
+    else if (r == NULL)
+    {
+        return l;
+    }
+    else
+    {
+        return root;
+    }
+}
+*/
