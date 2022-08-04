@@ -30,3 +30,36 @@ Node *post_order(int pre[], int size)
     return build(pre, size, INT_MAX);
 }
 */
+/**
+TreeNode *makeBST(vector<int> &preorder, int low, int high, int &index)
+{
+    if (index >= preorder.size())
+    {
+        return NULL;
+    }
+    if (preorder[index] < low || preorder[index] > high)
+    {
+        return NULL;
+    }
+
+    TreeNode *root = new TreeNode(preorder[index]);
+    index += 1;
+    root->left = makeBST(preorder, low, root->val, index);
+    root->right = makeBST(preorder, root->val, high, index);
+    return root;
+}
+
+TreeNode *bstFromPreorder(vector<int> &preorder)
+{
+    if (preorder.size() == 0)
+    {
+        return NULL;
+    }
+
+    int low = INT_MIN;
+    int high = INT_MAX;
+    int index = 0;
+
+    return makeBST(preorder, low, high, index);
+}
+*/
