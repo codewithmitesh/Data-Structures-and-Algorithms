@@ -34,9 +34,7 @@ bool DFS(int V, vector<int> adj[], vector<bool> &visited, int s, int parent)
 
 bool isCycle(int V, vector<int> adj[])
 {
-
     vector<bool> visited(V + 1, 0);
-
     for (int i = 0; i < V; i++)
     {
         if (visited[i] == false)
