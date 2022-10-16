@@ -81,6 +81,7 @@ public:
                 distanceArr[i][j] = 0;
             }
         }
+
         int x = KnightPos[0], y = KnightPos[1];
         return BFS(x, y, N, TargetPos);
     }
