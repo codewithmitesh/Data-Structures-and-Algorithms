@@ -1,0 +1,30 @@
+It is very necesaary to Post your solution and get reach solution with comments appropriate variable names 
+proper steps and observations 
+related problems link 
+Method 
+Algorithm
+Time and Space Complexity 
+Images if needed
+Use Emoji's to make it more attractive
+Use Bold text and Italic Underline to make it more readable Give an click-bait Title ki rok naa paye
+add maximum tags you can add 
+
+At last add joke or Meme
+
+
+So use proper markdown template update in the template file
+
+code with proper variable names, indentation and comments 
+
+Discussion. md me discusstion ka markdown ka format rahega jisme hum simply kya krenge toh bhai simply usme Hints Daalenge :- 
+HInts 1 hInts 2 :- THink with Respect to related problems, DS or Algorithms to think 
+Space use kare ya TIme COmplexity reduce kare etc
+
+
+
+
+Why ? 
+
+this reputation and reach increase our respect in the society and makes leetcode profile beautiful
+
+

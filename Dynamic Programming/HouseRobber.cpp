@@ -43,7 +43,6 @@ int solve(vector<int> &nums, vector<int> &dp, int ind)
 
 int rob(vector<int> &nums)
 {
-
     int n = nums.size();
     vector<int> dp(n + 1, -1);
     return solve(nums, dp, n - 1);
