@@ -102,6 +102,7 @@
         "commandCenter.border": "#e7e7e799"
     },
     "peacock.color": "#1857a4",
+    "C_Cpp.errorSquiggles": "disabled",
     // "code-runner.executorMap": {
     //     "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
     // },
